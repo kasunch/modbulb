@@ -9,7 +9,7 @@ modBulb uses an energy efficient switching LED driving circuitry which makes mod
 
 ## Hardware
 
-![PCBs together](hardware/3d-all-pcbs.png =250x250)
+![PCBs together](hardware/3d-all-pcbs.png)
 
 Prototype Implementation
 ![Prototype](hardware/modbulb-500px.png)
