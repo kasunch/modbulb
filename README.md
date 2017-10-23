@@ -9,10 +9,30 @@ modBulb uses an energy efficient switching LED driving circuitry which makes mod
 
 ## Hardware
 
+modBulb hardware consists of three parts:
+
+- Light source i.e. LEDs
+- LED driver
+- Baseband generator
+
+There are two types of baseband generators:
+
+- MCU baseband generator
+
+  This baseband generator is built with TI's CC3200 SoC which is clocked at 80 MHz.
+
+- FPGA baseband generator
+
+  This baseband generator is built with Microsemi's AGLN060 FPGA which is clocked at 20 MHz.
+
+Following figure shows the two baseband generators (top: FPGA baseband generator, middle MCU baseband generator) and the LED driver. 
+
 ![PCBs together](hardware/3d-all-pcbs.png)
 
 Prototype Implementation
 ![Prototype](hardware/modbulb-500px.png)
 
 ## Software
+
+modBulb software undergoes a major restructuring  at the moment. However, the current software can be found in [github.com/modBulb/modBulb](https://github.com/modBulb/modBulb).
 
